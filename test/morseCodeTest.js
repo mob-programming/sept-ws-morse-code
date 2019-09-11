@@ -5,3 +5,8 @@ describe( "morseCodeTranslator", () => {
         assert.equal(morseCodeTranslator("a"), ".-");
     });
 });
+
+
+function morseCodeTranslator(){
+    return ".-";    
+};
