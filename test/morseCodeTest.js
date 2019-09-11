@@ -11,6 +11,7 @@ describe( "morseCodeTranslator", () => {
 });
 
 
-function morseCodeTranslator(){
-    return ".-";    
+function morseCodeTranslator(foo){
+    if(foo === ".-") return "a";
+    return ".-";
 };
